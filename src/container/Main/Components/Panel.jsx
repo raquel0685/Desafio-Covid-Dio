@@ -26,7 +26,7 @@ const shareInfo = () => {
     navigator.share({
         title:`Dados do Covid19 - ${country}`,
         text: textCovid19,
-        url: 'https://covid19dio.netlify.app/'
+        url: ''
     })
 }
 const renderShareButton = (
